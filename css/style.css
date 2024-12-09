@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Parkinsans", sans-serif;
+}
+
+/* Login page css start */
+body {
+  background-image: linear-gradient(to right bottom, #35e191, #6de47d);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-section {
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 48px 32px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+.login-title {
+  margin-bottom: 16px;
+}
+.login-title h2 {
+  text-align: center;
+  font-weight: 500;
+  color: #640d5f;
+}
+.login-form {
+}
+.email-field {
+  margin-bottom: 16px;
+}
+.pass-field {
+  margin-bottom: 12px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 3px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  display: block;
+  outline: none;
+}
+.input-field:focus {
+  /* border: none; */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0);
+}
+.btn-login {
+  display: inline-block;
+  color: #fff;
+  background-color: #640d5f;
+  border: none;
+  padding: 6px 10px;
+  width: 100%;
+  border-radius: 35px;
+  margin-top: 8px;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.5);
+  border: 2px solid #640d5f;
+  cursor: pointer;
+}
+.btn-login:hover {
+  color: #640d5f;
+  background-color: transparent;
+}
+
+.forget-pass {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 16px;
+}
+/* Login page css end */
